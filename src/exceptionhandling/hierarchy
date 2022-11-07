@@ -1,0 +1,19 @@
+Throwable
+        Exception-
+                    SqlException
+                    IOException
+                            -FileNotFoundException
+                    ClassNotFoundException
+        RunTimeException-
+                     ArithmeticException
+                     NumberFormatException
+                     NullPointerException
+                     ClassCastException
+                     IndexOutOfBoundException
+                                -StringIndexOutOfBondException
+                                -ArrayIndexOutOfBoundException
+
+        Error-
+                UnknownError
+                StackOverFlowError
+                OutOfMemoryError
