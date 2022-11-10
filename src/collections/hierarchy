@@ -1,0 +1,10 @@
+
+                                                        iterable(I)
+
+                                                        Collection(I)
+
+ List(I)                                                Queue(I)                                                Set(I)
+
+ -ArrayList(C)                                          priorityQueue(C)                                      HashSet(C)
+ -LinkedList(C)                                       Dequeue(I)
+ -Vector                                                     ArrayDequeue(C)                            Linkedhashset(C)
