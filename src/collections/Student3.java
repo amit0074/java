@@ -26,11 +26,10 @@ public class Student3 {
        list1.add(obj2);
        list1.add(obj3);
 
-        Iterator itr = list1.iterator();
+        list1.forEach(Student3->{
+            System.out.println(Student3.id+" "+Student3.name+" "+Student3.address);
+        });
 
-        while (itr.hasNext()) {
-            Student3 st = (Student3) itr.next();
-            System.out.println(st.id + " " + st.name + " " + st.address);
         }
     }
-}
+
