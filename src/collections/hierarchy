@@ -7,4 +7,5 @@
 
  -ArrayList(C)                                          priorityQueue(C)                                      HashSet(C)
  -LinkedList(C)                                       Dequeue(I)
- -Vector                                                     ArrayDequeue(C)                            Linkedhashset(C)
+ -Vector (C)
+          -Stack(C)                                                ArrayDequeue(C)                            Linkedhashset(C)
