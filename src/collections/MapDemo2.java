@@ -1,9 +1,6 @@
 package collections;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class MapDemo2 {
 
@@ -23,10 +20,12 @@ public class MapDemo2 {
         map3.put("UK",80);
         map3.put("US",90);
 
-        List<Map<String,Integer>> list=new ArrayList<>();
-        list.add(map1);
-        list.add(map2);
-        list.add(map3);
+//        List<Map<String,Integer>> list=new ArrayList<>();
+//        list.add(map1);
+//        list.add(map2);
+//        list.add(map3);
+
+        List<Map<String,Integer>> list= Arrays.asList(map1,map2,map3);
 
         System.out.println(list);
 
