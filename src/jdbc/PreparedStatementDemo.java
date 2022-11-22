@@ -18,18 +18,21 @@ public class PreparedStatementDemo {
 
         Scanner scanner=new Scanner(System.in);
         int id;
+        int age;
         String name;
         String address;
 
-        System.out.println("Enter values of id name and address");
+        System.out.println("Enter values of id name age and address ");
         id=scanner.nextInt();
+
         name=scanner.next();
+        age= scanner.nextInt();
         address=scanner.next();
 
 
 //        String insert="insert into employee(id,name,address) values(? ,? ,? )";
 
-        String update="update employee set name=?,address=? where id =?";
+        String update="update employee set name=?,address=?,age=? where id =?";
 
         PreparedStatement preparedStatement=connection.prepareStatement(update);
 
@@ -37,7 +40,8 @@ public class PreparedStatementDemo {
         preparedStatement.setString(1,name);
 
         preparedStatement.setString(2,address);
-        preparedStatement.setInt(3,id);
+        preparedStatement.setInt(3,age);
+        preparedStatement.setInt(4,id);
 
 
         int count=preparedStatement.executeUpdate();
