@@ -9,9 +9,9 @@ public class BiggestString {
 
         List<String> str=new ArrayList<>();
         str.add("Amit");
-        str.add("Tejas");
+        str.add("Tejas bhau");
         str.add("Manish");
-        str.add("Jeevann");
+        str.add("Jeevann ");
 
 
         System.out.println(str);
